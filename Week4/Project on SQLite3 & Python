@@ -1,0 +1,17 @@
+Create a contact management system using sqlite3 and python using user define function.
+
+Create table contact(fname,laname,contact,email,city). Perform following operation on it.
+
+1. Insert Contact
+2. Update Contact
+3. Delete Contact
+4. Search Contact 
+
+Create trigger to validate input on the contact table.
+
+Also maintain log regarding above operation in logtable with operation name with datetime.
+
+if inserted and deleted then maintain detail about fname,lname, contact and datatime.
+if record is updated then maintain logtable with old and new value of contacts.
+
+
